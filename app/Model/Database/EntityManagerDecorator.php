@@ -2,7 +2,7 @@
 
 namespace App\Model\Database;
 
-use Nettrine\ORM\EntityManagerDecorator as NettrineEntityManagerDecorator;
+use Doctrine\ORM\Decorator\EntityManagerDecorator as NettrineEntityManagerDecorator;
 
 /**
  * Custom EntityManagerDecorator
